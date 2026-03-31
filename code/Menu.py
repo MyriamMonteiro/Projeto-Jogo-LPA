@@ -10,15 +10,13 @@ class Menu :
 
     def run(self):
         while True:
-            # Desenha a imagem de fundo do menu
             self.window.blit(self.background_menu, (0, 0))
             #TEXTO
             font = pygame.font.SysFont ( None, 20 )
-            text = font.render ( "Pressione ESPAÇO para jogar", True, (255, 255, 255) )
-            self.window.blit ( text, (200, 450) )
+            text = font.render ( "Se mova com as setas - ESQUERDA e DIREITA | Pressione ESPAÇO para jogar", True, (255, 255, 255) )
+            self.window.blit ( text, (60, 450) )
 
-            # Destacar a orientação do texto
-            pos_x, pos_y = 200, 450
+            pos_x, pos_y = 60, 450
             rect_fundo = text.get_rect ( topleft=(pos_x, pos_y) )
             pygame.draw.rect ( self.window, (50, 50, 50), rect_fundo )
             self.window.blit ( text, (pos_x, pos_y) )
