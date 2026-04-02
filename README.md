@@ -1,4 +1,4 @@
-Este projeto consiste em um jogo simples desenvolvido em Python com a biblioteca Pygame, criado como parte de estudos em lógica de programação para o curso de Análise e Desenvolvimento de Sistemas (ADS). A mecânica e o tema do jogo foram inspirados na minha própria cachorrinha, chamada Kitty.
+Este projeto consiste em um jogo simples desenvolvido em Python com a biblioteca Pygame, criado como parte de estudos em  Linguagem de Programação Aplicada para o curso de Análise e Desenvolvimento de Sistemas (ADS). A mecânica e o tema do jogo foram inspirados na minha própria cachorrinha, chamada Kitty.
 
 Abaixo, os principais pontos técnicos do projeto:
 
